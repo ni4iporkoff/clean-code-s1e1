@@ -5,24 +5,24 @@
   font-family: Lato, sans-serif;
 }
 
-.matrix-descr-wrapper {
+.matrix-descr {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.matrix-descr-wrapper .matrix-descr-img {
+.matrix-descr .matrix-descr__img {
   width: 100%;
 }
 
-.matrix-descr-wrapper .matrix-descr-link {
+.matrix-descr .matrix-descr-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-  .matrix-descr-wrapper {
+  .matrix-descr {
     text-align: center;
   }
 
@@ -41,8 +41,9 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.new-task {
   display: flex;
+  margin-top: 20px;
 }
 
 #incomplete-tasks,
@@ -99,7 +100,7 @@
 }
 
 /* New Task */
-.new-task-item {
+.new-task__label {
   display: block;
   margin: 0 0 20px;
 }
