@@ -119,22 +119,22 @@
   align-items: center;
 }
 
-.task-wrapper > * {
+.task-wrapper {
   vertical-align: middle;
 }
 
-.task-wrapper > .task-item {
+.task-wrapper .task-item {
   margin: 0 10px;
 }
 
-.task-wrapper > .task {
+.task-wrapper .task {
   padding-left: 20px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.task-wrapper > .task-item {
+.task-wrapper .task-item {
   width: 226px
 }
 
