@@ -52,6 +52,11 @@
   padding: 0px;
 }
 
+.task-item_checkbox,
+.task-item {
+  outline: none;
+}
+
 .btn-edit,
 .btn-delete,
 .btn-add {
