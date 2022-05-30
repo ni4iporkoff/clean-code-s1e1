@@ -52,7 +52,7 @@
   padding: 0px;
 }
 
-.task-item_checkbox,
+.task-item__checkbox,
 .task-item {
   outline: none;
 }
